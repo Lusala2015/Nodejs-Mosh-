@@ -10,6 +10,6 @@ window.console.log();
 
 
 // gives undefined in the console 
-// variables anfd functions defined here are  they are not added to the global object, they are only scoped to this file  app.js
+// variables and functions defined here are  they are not added to the global object, they are only scoped to this file  app.js
 var message = '';
 console.log(global.message);
