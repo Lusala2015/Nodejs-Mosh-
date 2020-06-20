@@ -1,6 +1,6 @@
 console.log();//global object
 
-setTimeout();//call a hunction after a delay
+setTimeout();//call a function after a delay
 clearTimeout();//
 
 setInterval();// repeatedly call a function after a given delay
