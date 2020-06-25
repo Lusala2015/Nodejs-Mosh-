@@ -9,3 +9,5 @@ logger.on('messageLogged',(arg) => {
 }) ;
 
 logger.log('message');
+
+//end
