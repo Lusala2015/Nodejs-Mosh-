@@ -1,3 +1,5 @@
 const EventEmitter = require('events');
 
 const emitter = new EventEmiter();
+
+emitter.emit('messageLogged');
