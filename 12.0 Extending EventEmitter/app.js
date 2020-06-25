@@ -7,4 +7,5 @@ emitter.on('messageLogged',(arg) => {
 }) ;
 
 const Logger = require ('./logger');
+const logger = new Loger ();
 Logger('message');
