@@ -4,7 +4,7 @@ const emitter = new EventEmitter();
 
 var url = 'http://mylogger.io/log';
 
-class Logger {
+class Logger extends EventEmitter {
     log(message){
         //send a HTTP request
         console.log(message);
@@ -14,4 +14,4 @@ class Logger {
 }
 
 
-module.exports = log;
+module.exports = logger;
