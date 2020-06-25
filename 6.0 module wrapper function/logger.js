@@ -1,6 +1,7 @@
-(function (exports, require, module, __filename, __dirname){
+//(function (exports, require, module, __filename, __dirname){
 
-    ;
+    console.log(__filename);
+    console.log(__dirname)
 
     var url = 'http://mylogger.io/log';
 
@@ -11,4 +12,4 @@
 
     module.exports = log;
 
-});
+//});
