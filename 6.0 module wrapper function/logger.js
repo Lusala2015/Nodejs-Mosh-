@@ -1,9 +1,14 @@
-(function(exports,requir){
-var url = 'http://mylogger.io/log';
- 
-function log(message){
-    //send a HTTP request
-    console.log(message);
-}
+(function (exports, require, module, __filename, __dirname){
 
-module.exports= log;
+    ;
+
+    var url = 'http://mylogger.io/log';
+
+        function log(message){
+            //send a HTTP request
+            console.log(message);
+        }
+
+    module.exports = log;
+
+});
