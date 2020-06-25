@@ -8,7 +8,6 @@ class Logger extends EventEmitter {
     log(message){
         //send a HTTP request
         console.log(message);
-        
         emitter.emit('messageLogged',{id: 1, url: 'http://'});
     }
 }
