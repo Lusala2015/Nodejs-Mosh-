@@ -8,3 +8,5 @@ emitter.on('messageLogged',(arg) => {
 
 
 emitter.emit('messageLogged', { id: 1, url:'http://'});
+
+ 
